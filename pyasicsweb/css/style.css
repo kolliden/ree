@@ -1,0 +1,64 @@
+/* Global */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	background:#6d6d6d;
+	font-family: sans-serif;
+}
+nav{
+	height: 10vh;
+	background:#0f0f0f;
+}
+#nav-links{
+	display: flex;
+	list-style: none;
+	width: 100%;
+	background: rgb(48, 48, 48);
+	height: 100%;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: auto;
+}
+#nav-links li a{
+	text-decoration: none !important;
+	color:#fff !important;
+	font-size: 16px;
+}
+footer{
+	height: 100%;
+	width: 100%;
+	background: rgb(99, 56, 0);
+	text-align: center;
+	font-size: larger;
+}
+/* Grid layout global*/
+.grid-container{
+	display:grid;
+	grid-template-columns: auto auto;
+	background-color: rgb(90, 90, 90);
+	padding:10px;
+	font-size:  30px;
+	text-align: center;
+
+}
+.grid-item{
+	padding:20px;
+	/*border: 1px solid rgba(0, 0, 0, 0.8);*/
+}
+#item1{
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+/* HOME page */
+/* TODO: blyat */
+.about{
+	padding: 5vh;
+	background: rgb(73, 73, 73);
+}
+.img{
+	width:68vh;
+	height:42vh;
+}
